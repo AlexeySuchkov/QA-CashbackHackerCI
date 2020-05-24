@@ -5,7 +5,7 @@ public class CashbackHackService {
 
     public int remain(int amount) {
         if (amount <= 0) {
-            throw new IllegalArgumentException("amount must be greater than zero");
+            throw new IllegalArgumentException("amount must be more than zero");
         }
 
         boolean isNeedMore = amount % boundary != 0;

@@ -27,15 +27,6 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldReturn1000IfAmount0() {
-        int amount = 0;
-        int actual = cashback.remain(amount);
-        int expected = 1000;
-
-        assertEquals(expected, actual);
-    }
-
-    @Test
     public void shouldReturn0IfAmount1000() {
         int amount = 1000;
         int actual = cashback.remain(amount);
