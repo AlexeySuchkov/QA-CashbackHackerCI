@@ -65,4 +65,5 @@ public class CashbackHackServiceTest {
     @Test
     void shouldThrowIllegalArgumentException() {
         assertThrows(IllegalArgumentException.class, () -> cashback.remain(0));
+    }
 }
